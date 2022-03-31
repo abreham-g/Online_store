@@ -1,6 +1,11 @@
 # E-commerce Website with React and Node.js
 
-This is an online bookstore built with [React](https://reactjs.org/) and [Node.js](https://nodejs.org/en/).
+This is an online bookstore built with [React](https://reactjs.org/) and [Node.js](https://nodejs.org/en/)
+# Demo
+![image](https://user-images.githubusercontent.com/38854724/161061728-5a9f85d6-d8cd-4663-b8ae-bf934a5d98e0.png)
+
+
+
 
 To run the application, simply run 
 
