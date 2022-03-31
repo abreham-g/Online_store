@@ -1,0 +1,51 @@
+.book-container {
+    height: 350px;
+    width: 420px;
+    display: grid;
+    grid-template-columns: 250px 170px;
+    grid-template-areas: "img text";
+    border: 0.5px solid black;
+    margin: 20px;
+
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.book-container:hover {
+    transform: translateY(-8px);
+}
+
+
+.book-left {
+    grid-area: img;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
+.book-right {
+    grid-area: text;
+}
+
+.metadata {
+    height: 260px;
+    font-size: 15px;
+    margin-left: 3px;
+    padding-right: 8px;
+    padding-top: 2px;
+}
+
+.select-btn {
+    height: 90px;
+    position: relative;
+}
+
+.btn .btn-primary {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+img:hover {
+    cursor: pointer;
+}
